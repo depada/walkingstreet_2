@@ -17,6 +17,9 @@ body {
   flex-direction: row;
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+.w-layout-grid.layout21_component {
+  margin-top: 3rem;
+}
 
 .carousel-slide {
   height: 100%;
@@ -111,7 +114,8 @@ body {
 }
 
 .w-dyn-item:hover {
-  background-color: #fcec91; /* Change to your desired background color */
+  background-color: 
+  /* #93b1a6; */ #818fb4;
   cursor: pointer;
 }
 .navbar3_link {
