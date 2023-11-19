@@ -32,6 +32,10 @@ body {
   object-fit: fill;
 }
 
+#gallery .carousel-slide img {
+  object-fit: contain;
+}
+
 .control-button {
   cursor: pointer;
   position: absolute;
@@ -114,8 +118,9 @@ body {
 }
 
 .w-dyn-item:hover {
-  background-color: 
-  /* #93b1a6; */ #818fb4;
+  background-color: #fff8d4;
+  /* #93b1a6; */
+  /* #818fb4; */
   cursor: pointer;
 }
 .navbar3_link {
@@ -259,6 +264,7 @@ video {
   }
   #home {
     height: 100% !important;
+    top: 60px;
   }
 
   .carousel-slide img {
@@ -337,6 +343,16 @@ video {
   #home-float {
     height: 65px;
     width: 65px;
+  }
+  .w-layout-grid.footer4_link-list {
+    position: relative;
+    left: 25px;
+    scale: 0.9;
+  }
+  .footer4_component {
+    scale: 0.8;
+    position: relative;
+    right: 50px;
   }
 }
 
