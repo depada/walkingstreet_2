@@ -425,8 +425,8 @@
                     <h1 class="heading-xxlarge">Walking Street</h1>
                   </div>
                   <div class="margin-bottom margin-medium">
-                    <p class="text-size-medium"><strong>Revive the Joy of the Open Road with Every
-                        Bite!</strong><br />‍<br />Experience a Thrilling Fusion of Entertainment!
+                    <p class="text-size-medium"><strong>A Drivein like never before in
+                        Hyderabad</strong><br />‍<br />Experience a Thrilling Fusion of Entertainment!
                       At Walking Street, we've redefined the drive-in experience. Prepare for an adrenaline-pumping
                       adventure as we bring you
                       a variety of heart-pounding activities and immersive zones that will leave you wanting more. From
@@ -3157,31 +3157,35 @@
               </div>
               <div class="w-layout-grid contact12_component">
                 <div class="contact12_form-wrapper w-form">
-                  <form style="width: 100%;align-items: center;justify-content: center;"
+                  <!-- <form style="width: 100%;align-items: center;justify-content: center;"
                     id="wf-form-Vraag-via-de-website" name="wf-form-Vraag-via-de-website"
                     data-name="Vraag via de website" method="get" class="contact12_form"
+                    data-wf-page-id="61f53606a22f7ea02a2993fd"
+                    data-wf-element-id="4da0a72a-357d-0ad9-3c66-65e2d484016d"> -->
+                  <form style="width: 100%;align-items: center;justify-content: center;" id="bookingForm"
+                    name="bookingForm" data-name="Booking Form" method="get" class="contact12_form"
                     data-wf-page-id="61f53606a22f7ea02a2993fd"
                     data-wf-element-id="4da0a72a-357d-0ad9-3c66-65e2d484016d">
                     <div class="form-field-2col">
                       <div class="form-field-wrapper"><label for="voornaam" class="field-label">First name</label><input
                           type="text" class="form-input w-input" maxlength="256" name="voornaam" data-name="voornaam"
-                          placeholder="" id="voornaam" required=""></div>
+                          placeholder="" id="firstName" required=""></div>
                       <div class="form-field-wrapper"><label for="achternaam" class="field-label">Surname</label><input
                           type="text" class="form-input w-input" maxlength="256" name="achternaam"
-                          data-name="achternaam" placeholder="" id="achternaam" required=""></div>
+                          data-name="achternaam" placeholder="" id="lastName" required=""></div>
                     </div>
                     <div class="form-field-2col">
                       <div class="form-field-wrapper"><label for="e-mail" class="field-label">E-mail
                           address</label><input type="email" class="form-input w-input" maxlength="256" name="e-mail"
-                          data-name="e-mail" placeholder="" id="e-mail" required=""></div>
+                          data-name="e-mail" placeholder="" id="mail" required=""></div>
                       <div class="form-field-wrapper"><label for="Contact-12-Phone" class="field-label">Phone
                           number</label><input type="tel" class="form-input w-input" maxlength="256"
-                          name="Contact-12-Phone" data-name="Contact 12 Phone" placeholder="" id="Contact-12-Phone"
-                          required=""></div>
+                          name="Contact-12-Phone" data-name="Contact 12 Phone" placeholder="" id="phone" required="">
+                      </div>
                     </div>
                     <div class="form-field-wrapper">
                       <label for="Contact-12-Select" class="field-label">Choose a topic</label>
-                      <select id="Contact-12-Select" name="Contact-12-Select" data-name="Contact 12 Select" required=""
+                      <select id="select" name="Contact-12-Select" data-name="Contact 12 Select" required=""
                         class="form-input select w-select">
                         <option value="">What is your requirement?</option>
                         <option value="alcoholic-events">ALCOHOLIC EVENTS</option>
@@ -3218,29 +3222,26 @@
                     </div>
                     <div class="form-field-wrapper">
                       <label for="Contact-12-Date" class="field-label">Date</label>
-                      <input type="date" class="form-input w-input" name="Contact-12-Date" id="Contact-12-Date"
-                        required="">
+                      <input type="date" class="form-input w-input" name="Contact-12-Date" id="date" required="">
                     </div>
 
                     <div class="form-field-wrapper">
                       <label for="Contact-12-Time" class="field-label">Time</label>
-                      <input type="time" class="form-input w-input" name="Contact-12-Time" id="Contact-12-Time"
-                        required="">
+                      <input type="time" class="form-input w-input" name="Contact-12-Time" id="time" required="">
                     </div>
 
 
                     <div class="form-field-wrapper"><label for="Contact-12-Message"
-                        class="field-label">Message</label><textarea id="Contact-12-Message" name="Contact-12-Message"
+                        class="field-label">Message</label><textarea id="message" name="Contact-12-Message"
                         maxlength="5000" data-name="Contact 12 Message" placeholder="Type your message here" required=""
                         class="form-input text-area w-input"></textarea></div>
-                    <div class="margin-bottom margin-xsmall"><label id="Contact-2-Checkbox"
-                        class="w-checkbox checkbox-wrapper">
+                    <div class="margin-bottom margin-xsmall"><label id="checkbox" class="w-checkbox checkbox-wrapper">
                         <div class="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox"></div><input
                           type="checkbox" name="Contact-2-Checkbox" id="Contact-12-Checkbox"
                           data-name="Contact 2 Checkbox" style="opacity:0;position:absolute;z-index:-1"><span
                           for="Contact-2-Checkbox" class="form-checkbox-label text-size-small w-form-label">I want to
                           subscribe for the Walking Street newsletter</span>
-                      </label></div><input type="submit" value="Send this thing" data-wait="Please wait..."
+                      </label></div> <input type="submit" value="Send this thing" data-wait="Please wait..."
                       id="w-node-_4da0a72a-357d-0ad9-3c66-65e2d48401ab-2a2993fd" class="button w-button">
                   </form>
                   <div class="success-message w-form-done">
@@ -3311,7 +3312,7 @@
                         <div>Behind Butta Convention, Khanamet, Hitech city, Madhapur, Hyderabad, Telangana 500018</div>
                       </div>
                       <div class="button-row">
-                        <a href="https://www.google.com/maps?q=Behind Butta Convention, Khanamet, Hitech city, Madhapur, Hyderabad, Telangana 500018"
+                        <!-- <a href="https://www.google.com/maps/place/Walking+Street+Drive-In/@17.4583244,78.3842465,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb91d11bf95e83:0xbf25fbbf624cee9f!8m2!3d17.4583244!4d78.3868214!16s%2Fg%2F11sd3vlfmb?entry=ttu"
                           target="_blank" class="button-tertiary w-inline-block">
                           <div><strong>Plan route</strong></div>
                           <div class="button-tertiary_icon w-embed">
@@ -3320,7 +3321,18 @@
                               <path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path>
                             </svg>
                           </div>
+                        </a> -->
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=17.4583244,78.3842465"
+                          target="_blank" class="button-tertiary w-inline-block">
+                          <div><strong>Get Directions</strong></div>
+                          <div class="button-tertiary_icon w-embed">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.5"></path>
+                            </svg>
+                          </div>
                         </a>
+
                       </div>
                     </div>
                   </div>
@@ -3704,6 +3716,55 @@
 
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"
     integrity="sha256-alsi6DkexWIdeVDEct5s7cnqsWgOqsh2ihuIZbU6H3I=" crossorigin="anonymous"></script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/655c7eebd600b968d315694d/1hfokvijn';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <script>
+    document.getElementById('bookingForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      var fullName = `${document.getElementById("firstName").value} ${document.getElementById("lastName").value}`
+      var email = document.getElementById('mail').value
+      var phone = document.getElementById('phone').value
+      var topic = document.getElementById('select').value
+      var date = document.getElementById('date').value
+      var time = document.getElementById('time').value
+      var message = document.getElementById('message').value
+      var contact = '+918790718406'
+
+      var encodedMessage = encodeURIComponent(
+        "Name: " + fullName + "\n" +
+        "Email: " + email + "\n" +
+        "Phone: " + phone + "\n" +
+        "Topic: " + topic + "\n" +
+        "Date: " + date + "\n" +
+        "Time: " + time + "\n" +
+        "Message: " + message
+      );
+
+      var link;
+
+      // Check if user is on a mobile device
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        link = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+      } else { // Desktop device
+        link = `https://web.whatsapp.com/send?phone=${contact}&text=${encodedMessage}`;
+      }
+
+      window.open(link, '_blank');
+
+
+    })
+  </script>
 </body>
 
 </html>
